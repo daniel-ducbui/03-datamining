@@ -136,3 +136,5 @@ with open("output.txt", "w",encoding="utf-8") as f:
     for key in sorted_keys:
         output_string = str(key).ljust(20) + str(data[key][1]).ljust(15) + str(data[key][0]).ljust(15) + "\n"
         f.writelines(output_string)
+
+# Reference: https://github.com/daniel-ducbui/03-datamining
